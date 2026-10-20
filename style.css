@@ -1,0 +1,12 @@
+:root { --bg: #FFFBF5; --fg: #2B2B2B; --muted: #6E6A63; --accent: #2E9C94; --line: #E6DFD3; color-scheme: light dark; }
+@media (prefers-color-scheme: dark) { :root { --bg: #171A19; --fg: #ECE8E1; --muted: #A39E95; --accent: #5FCFC6; --line: #343A38; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.75 "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px max(20px, env(safe-area-inset-left)) 64px; }
+h1 { font-size: 1.6rem; line-height: 1.35; margin: 8px 0 4px; }
+h2 { font-size: 1.1rem; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+.meta, .lang { color: var(--muted); font-size: 0.9rem; margin: 0; }
+.lang { text-align: right; }
+a { color: var(--accent); }
+ul { padding-left: 1.2em; }
+li + li { margin-top: 6px; }
