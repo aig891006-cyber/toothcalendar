@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "android": { "latest": "0.1.0", "minimum": "0.0.0", "storeUrl": "" },
+  "ios": { "latest": "0.1.0", "minimum": "0.0.0", "storeUrl": "" },
+  "message": { "ko": "", "en": "" }
+}
