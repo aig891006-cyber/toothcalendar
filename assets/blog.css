@@ -11,7 +11,7 @@ header.site .wrap{display:flex;align-items:center;justify-content:space-between;
 .brand img{width:32px;height:32px;border-radius:8px}
 .lang select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--fg)}
 main{padding-block:28px 48px}
-.hero{width:100%;aspect-ratio:5/2;object-fit:cover;border-radius:16px;background:var(--alt);display:block}
+.hero{width:100%;height:auto;aspect-ratio:5/2;object-fit:cover;border-radius:16px;background:var(--alt);display:block}
 .badges{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 6px}
 .badge{font-size:13px;background:var(--primary-soft);color:var(--primary);border-radius:999px;padding:3px 12px;font-weight:600}
 h1{font-size:30px;line-height:1.35;margin:6px 0 10px;text-wrap:balance}
@@ -39,7 +39,7 @@ details.faq summary{font-weight:700;cursor:pointer}details.faq p{margin:8px 0 2p
 .stage{margin-top:36px}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;color:var(--fg);display:flex;flex-direction:column;min-width:0}
-.card img{width:100%;aspect-ratio:5/2;object-fit:cover;display:block;background:var(--alt)}
+.card img{width:100%;height:auto;aspect-ratio:5/2;object-fit:cover;display:block;background:var(--alt)}
 .card span{padding:10px 12px 12px;font-weight:600;line-height:1.45}
 .card small{display:block;color:var(--muted);font-weight:400;font-size:14px;margin-top:4px}
 footer.site{border-top:1px solid var(--line);color:var(--muted);font-size:14px}
