@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aig891006-cyber.github.io/toothcalendar/sitemap.xml
