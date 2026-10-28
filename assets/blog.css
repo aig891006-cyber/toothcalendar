@@ -50,3 +50,6 @@ footer.site{border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 footer.site .wrap{padding-block:18px;display:flex;gap:16px;flex-wrap:wrap}
 .langs{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;padding:0;list-style:none}
 .langs a{display:block;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;text-decoration:none;font-weight:600}
+
+/* Published ebook purchase cards */
+.book-cta{display:flex;align-items:flex-start;gap:24px}.book-cover{width:128px;height:auto;flex:none;box-shadow:0 5px 15px #0002;border-radius:4px}.book-copy{min-width:0}.book-copy p{margin:0 0 12px}.book-edition{font-size:13px;color:var(--muted);font-weight:600}.book-cta .btn{background:var(--primary);color:#fff}@media(prefers-color-scheme:dark){.book-cta .btn{color:#10201E}}@media(max-width:520px){.book-cta{gap:16px;flex-direction:column}.book-cover{width:104px}.book-cta .btn{max-width:100%;box-sizing:border-box}}
